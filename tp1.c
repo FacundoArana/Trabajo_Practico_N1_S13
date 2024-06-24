@@ -35,7 +35,7 @@ int menu(){
 
 void facturacion_menores(int entradas_menores){ 
 
-    printf("\nLa facturacion de las entradas menores fue de: %d$", entradas_menores * PRECIO_MENORES); 
+    printf("\nLa facturacion de las entradas menores fue de: $%d", entradas_menores * PRECIO_MENORES); 
 
 } 
 
@@ -82,7 +82,7 @@ void porcentaje_entradas(int entradas_generales, int entradas_menores, int entra
 
     float division = (entradas_generales / contador_entradas) * 100; 
 
-    printf("\nEl porcentaje de entradas generales es de %f", division); 
+    printf("\nEl porcentaje de entradas generales es de %.2f%%", division); 
 
 } 
 
